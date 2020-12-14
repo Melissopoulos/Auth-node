@@ -8,7 +8,7 @@ const {registerValidation, loginValidation} = require('../routes/validation')
 
 
 
-//REGISTER USERS 1
+//REGISTER 
 router.post('/register', async (req,res) => {
 
     //LETS VALIDATE DATA BEFORE WE MAKE A USER
